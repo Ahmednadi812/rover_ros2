@@ -1,0 +1,10 @@
+<library path="rover_firmware">
+    <include>rover_frimware/rover_interface.hpp</include>
+    <class name="rover_firmware/RoverInterface" 
+           type="rover_frimware::RoverInterface" 
+        base_class_type="hardware_interface::SystemInterface">
+        <description>
+            This class implements the hardware interface for the rover, allowing it to communicate with the motor controller via a serial port. It provides methods for initializing the hardware, activating and deactivating the interface, exporting state interfaces, and reading/writing data to/from the motor controller.
+        </description>
+    </class>
+</library>
